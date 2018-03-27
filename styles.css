@@ -14,7 +14,31 @@ body {
     overflow: hidden;
 }
 
-ul {
+.dark {
+    color: white;
+    background-color: #282828;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.bright {
+    color: white;
+    background-color: #0071bc;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px; 
+}
+
+.light-gray {
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+
+}
+header ul {
     padding: 0;
     margin: 0;
 }
@@ -27,6 +51,7 @@ ul {
     padding-right: 5px;
     color: #ffffff;
 }
+
 
 @font-face {
     font-family: "basic title font";
@@ -185,9 +210,6 @@ btn {
 
 
 
-
-
-
 /* Footer */
 
 footer {
@@ -200,3 +222,21 @@ footer {
 
 
 
+/* About.html */
+
+
+
+.accreditation {
+   margin: 10px 0 10px 0;
+   margin-top: 200px;
+}
+
+.values-statement {
+    margin: 10px 10px 10px 0;
+    margin-right: 15%;
+    position: relative;
+}
+
+.spacer {
+    padding: 2px;
+}
