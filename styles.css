@@ -1,0 +1,202 @@
+body {
+    background-image: url('stripes.png');
+    font-family: Roboto, Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button_1{
+    height: 35px;
+    background: #c33d33;
+    border:0;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "basic title font";
+    src: url("basictitlefont.ttf");
+    }
+
+/* Header */
+header {
+    color: #0071bc;
+    padding-top:0;
+    padding-bottom: 0px;
+    height: 80%;
+
+}
+
+nav {
+    margin-top: -20px;
+}
+
+header a{
+    color: #0071bc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top:0px;
+}
+
+header ul{
+    margin-top: 0;
+    padding: 0 10px 0 0;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header .brand-logo{
+    height: 100px;
+    padding: 0px 0px 0px 30px;
+    margin-top: -40px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header .icon-bar {
+    background-color: #003a68;
+}
+
+header .highlight, header .current a{
+    color: #003a68;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #282828;
+    font-weight: bold;
+}
+
+header span{
+    position: center;
+    margin-right: 70%;
+}
+
+/* Showcase
+*/
+
+#showcase {
+    background:url('hdladiests2.png') 0 -300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-top: 8em;
+    display: block;
+}
+
+#showcase .header-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+#showcase .container {
+    display: block;
+}
+
+/* Newsletter */
+
+#newsletter {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100%;
+    padding: 0 0 0 0;
+
+}
+
+
+
+form {
+   float: left;
+    margin-top: 0px;
+    margin-left: 10%;
+    
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+btn {
+    font-size: 12px;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+    font-family: 'basic title font';
+    text-align: center;
+    
+}
+
+#boxes .box img{
+    width: 100%;
+    align-self: center;
+    margin-left: 20%;
+    padding: 0px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #003a68;
+    text-align: center;
+}
+
+
+
