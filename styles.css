@@ -67,21 +67,19 @@ header {
 
 }
 
-nav {
-    margin-top: -20px;
-}
 
 header a{
     color: #0071bc;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
     margin-top:0px;
 }
 
 header ul{
     margin-top: 0;
     padding: 0 10px 0 0;
+    position: top, right;
 }
 
 header li{
@@ -93,6 +91,7 @@ header li{
 header .brand-logo{
     height: 100px;
     padding: 0px 0px 0px 30px;
+    position: top, left;
     margin-top: -40px;
 }
 
@@ -128,6 +127,11 @@ header span{
     margin-right: 70%;
 }
 
+#navbar .button{
+    position: top, right;
+}
+
+
 /* Showcase
 */
 
@@ -142,12 +146,7 @@ header span{
     width: 100%;
     height: auto;
     margin-top: 8em;
-    display: block;
-}
 
-#showcase .header-image {
-    width: 100%;
-    height: auto;
 }
 
 
@@ -187,25 +186,17 @@ btn {
 
 /* Boxes */
 
-#boxes {
-    margin-top: 20px;
-    font-family: 'basic title font';
-    text-align: center;
-    
-}
 
 #boxes .box img{
-    width: 100%;
-    align-self: center;
-    margin-left: 20%;
+    width: 400px;
+    margin-left: 0%;
     padding: 0px;
 }
 
 #boxes .box {
     float: left;
-    width: 30%;
+    width: 33%;
     padding: 10px;
-    text-align: right;
 }
 
 
