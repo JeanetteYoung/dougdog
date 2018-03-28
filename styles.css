@@ -1,5 +1,6 @@
 body {
     background-image: url('stripes.png');
+    max-width: 1800px;
     font-family: Roboto, Arial, Helvetica, sans-serif; 
     font-size: 15px;
     line-height: 1.5;
@@ -64,6 +65,7 @@ header {
     padding-top:0;
     padding-bottom: 0px;
     height: 80%;
+    max-width: 1800px;
 
 }
 
@@ -147,6 +149,7 @@ header span{
     background-size: 100%;
     background-position: center;
     min-height: 400px;
+    max-width: 1800px;
     text-align: center;
     color: #ffffff;
     margin-top: 8em;
