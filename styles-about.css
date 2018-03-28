@@ -160,7 +160,9 @@ header span{
 }
 
 .btn-send{
-    background-color: #0071bc !important;
+    
+    padding:5px;
+    border: none;
 }
 
 
@@ -271,7 +273,7 @@ footer {
   
   
     header .brand-logo{
-        margin-left: 41%; 
+        margin-left: 37%; 
         margin-top: -100px;
     }
     
@@ -282,6 +284,10 @@ footer {
         padding: 15px;
         margin-left: 20px;
         
+    }
+
+    header li{
+        padding: 10px;
     }
 
     #showcase {

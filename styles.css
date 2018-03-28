@@ -250,10 +250,12 @@ footer {
         margin-top: 10px; 
     }
 
-  
+    header li{
+        padding: 10px;
+    }
   
     header .brand-logo{
-        margin-left: 41%; 
+        margin-left: 38%; 
         margin-top: 0px;
     }
     
@@ -261,7 +263,7 @@ footer {
         float: none;
         text-align: center;
         display: inline;
-        padding: 15px;
+        padding: 5px;
         margin-left: 20px;
         
     }
@@ -274,12 +276,12 @@ footer {
 
     #newsletter button{
         display:inline-block;
-        width: 75%;
+        width: 100%;
         position: center;
     }
 
     #newsletter form input[type="email"]{
-        width: 75%;
+        width: 100%;
         margin-bottom: 5px;
     }
     
