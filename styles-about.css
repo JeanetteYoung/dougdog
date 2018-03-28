@@ -1,6 +1,6 @@
 body {
     background-image: url('stripes.png');
-    font-family: Roboto, Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -60,11 +60,11 @@ header ul {
 
 /* Header */
 header {
+    margin-top: 110px;
     color: #0071bc;
     padding-top:0;
     padding-bottom: 0px;
     height: 80%;
-
 }
 
 
@@ -159,6 +159,24 @@ header span{
     display: block;
 }
 
+.btn-send{
+    background-color: #0071bc !important;
+}
+
+
+.contact-form {
+    background-color: #003a68;
+    padding: 20px 5px 20px 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact-text {
+    color: #003a68;
+    text-align: center;
+    border-color: #c33d33;
+    padding: 20px 0 0 0;
+}
 /* Newsletter */
 
 #newsletter {
@@ -209,12 +227,12 @@ btn {
 
 footer {
     padding: 10px;
-    margin-top: 10px;
+
     margin-bottom: 0;
     color: white;
     background-color: #003a68;
     text-align: center;
-    float: bottom;
+    margin-top: 100px;
 }
 
 
@@ -254,7 +272,7 @@ footer {
   
     header .brand-logo{
         margin-left: 41%; 
-        margin-top: 0px;
+        margin-top: -100px;
     }
     
     header nav{

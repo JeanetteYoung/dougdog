@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trousdale School | Cleveland, TN</title>
+    <link rel="stylesheet" href="styles-about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body> 
+    <header>
+        <div id="branding">
+            
+               <a href="index.html"><img class="brand-logo img img-responsive" src="fullTSlogo.png" alt="Trousdale School logo"></a>
+          </div>
+   
+          <nav class="navbar">
+   
+           <div> 
+              <ul>
+                  <li><a href="index.html">Home </a></li>
+                  <li><a href="about.html">About </a></li>
+                  <li class="current"><a href="contact.html">Contact</a></li>
+                  <li><a href="http://www.facebook.com/trousdaleschool" class="fa fa-facebook" target="blank"></a></li>
+                  <li><a href="http://www.instagram.com/trousdaleschool" class="fa fa-instagram" target="blank"></a></li>
+              </ul>  
+          </nav>
+     
+        </header>
+    
+    <section class="main">
+        <div class="contact-text">
+            <h2>Contact Trousdale School</h2>
+        </div>
+        <div class="container contact-form light-blue">
+    
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+                <div class="messages"></div>
+            
+                <div class="controls">
+            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">First Name</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="or however Starbucks spells it" required="required" data-error="First name is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Last Name</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Make up a cool one" required="required" data-error="Last name is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="embarrassing old email address here" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone">Phone</label>
+                                
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="carrier pigeon ext.">
+                                <label>Check here if you'd like to receive text messages <input type="checkbox"></label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Heard any good jokes lately?" rows="4"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send Message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+   
+                        </div>
+                    </div>
+                </div>
+            
+            </form>
+            </div>  
+        </section>
+
+
+   
+    <footer>
+        <p>Trousdale School</p>
+        <p>3171 Hewitt Street SE  | Cleveland, TN 37323</p>
+        <p>423.495.7190     |       info@trousdaleschool.org</p>
+        <p>&copy; 2018</p>
+    </footer>
+
+</body>
+
+</html>
